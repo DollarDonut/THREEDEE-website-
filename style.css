@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  overflow: hidden;
+}
+
+canvas {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.widget {
+  position: fixed;
+  top: 19px;
+  left: 18px;
+  z-index: 1;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.widget:hover {
+  width: 4rem;
+  height: 4rem;
+}
+
+label {
+  margin-right: 5px;
+}
